@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+
+    <header>
+        
+        <h1>CONOCE NUESTROS PRODUCTOS Y EXPORTACIONES REALIZADAS</h1>
+
+        <nav class="nav">
+
+            <ul class="menu-horizontal">
+                <li><a href="index.html">Inicio</a>
+                <li>
+                    <a href="proveedores.html">Proveedores</a>
+                </li>
+                <li>
+                    <a href="#">Negociacion</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Registro</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header> 
+
+
+    <div class="container">
+        <h2 class="mt-4">Formulario para registro de registro</h2>
+
+        <form action="respuesta.html" method="post">
+            <div class="form-group">
+                <label for="Nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" />
+            </div>
+            <div class="form-group"><label for="Documento">Nombre</label>
+                <input type="text" class="form-control" id="Documento" placeholder="Ingrese su documento" />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electronico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese el correo electronico"
+                />
+            </div>
+
+            <div class="form-group">
+                <label>Seleccione su genero</label><br />
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="genero" id="Hombre" value="Hombre">
+                    <label class="form-check-label" for="Hombre">Hombre</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="genero" id="mujer" value="Mujer">
+                    <label class="form-check-label" for="Mujer">Mujer</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="genero" id="otro" value="otro">
+                    <label class="form-check-label" for="otro">otro</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="habeasdata" value="si" />
+                    <label class="form-check-label" for="habeas">Acepto la politica de manejo de datos</label>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Enviar" class="boton1">
+
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+    
+  
+
+
+
+</body>
+</html>
