@@ -660,7 +660,7 @@ h6{
 .menu {
     position: fixed;
     top: 230px;
-    right: -250px; /* Oculto por defecto */
+    right: -250px; 
     width: 250px;
     height: 40vh;
     background-color: #f1c7c7;
@@ -671,12 +671,12 @@ h6{
     border-radius: 10px;
 }
 
-/* Mostrar el menú cuando el checkbox está marcado */
+
 #menu-toggle:checked ~ .menu {
     right: 0;
 }
 
-/* Estilos de la lista del menú */
+
 .menu ul {
     list-style: none;
     padding: 0;
@@ -730,28 +730,28 @@ h6{
     }
 
     body {
-        font-size: 26px; /* Ajustar tamaño de fuente general */
+        font-size: 26px; 
     }
 
     /* Header y Navegación */
     .header, h1 {
         padding: 15px;
         font-size: 1.2em;
-        position: relative; /* Cambiar de fixed a relative para evitar superposición */
+        position: relative; 
     }
 
     .nav {
-        position: relative; /* Cambiar de fixed a relative */
+        position: relative;
         height: auto;
         padding: 15px;
         font-size: 24px;
-        top: 0; /* Eliminar desplazamiento vertical */
+        top: 0;
     }
 
     .menu-horizontal {
         flex-direction: column;
         align-items: center;
-        top: 0; /* Ajustar posición */
+        top: 0; 
     }
 
     .menu-horizontal > li > a {
@@ -766,7 +766,7 @@ h6{
 
     /* Formularios */
     form {
-        position: relative; /* Cambiar de absolute a relative */
+        position: relative; 
         width: 80%;
         margin: 15px auto;
         left: 0;
@@ -804,7 +804,7 @@ h6{
         left: 0;
         top: 0;
         margin: 15px 0;
-        position: relative; /* Cambiar de relative con left a relative sin desplazamiento */
+        position: relative; 
     }
 
     .img-paq, .fto1, .fto2, .fto3, .img1, .img2, .img3 {
@@ -823,19 +823,19 @@ h6{
         margin-left: 0;
         width: 100%;
         padding: 15px;
-        position: relative; /* Asegurar posición relativa */
+        position: relative;
         top: 0;
     }
 
     .card, .card-1, .testimonio {
         width: 90%;
         margin: 15px 0;
-        font-size: 18px; /* Reducir tamaño de fuente en tarjetas */
+        font-size: 18px; 
     }
 
     .testimonios {
         grid-template-columns: repeat(2, 1fr);
-        top: 0; /* Ajustar posición */
+        top: 0; 
     }
 
     .welcome, .welcome-1, .welcome-2 {
@@ -868,7 +868,7 @@ h6{
         line-height: 35px;
     }
 
-    /* Otros Ajustes Específicos */
+
     .container-1-1 {
         padding: 2%;
     }

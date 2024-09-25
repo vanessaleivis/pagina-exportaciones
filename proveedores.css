@@ -235,55 +235,53 @@ p{
         font-size: 20px;
     }
 
-    main {
-        grid-template-columns:1fr; Una sola columna 
-        margin-left: 20%;
-        padding: 0 10px;
-    }
+main {
+    grid-template-columns:1fr;
+    margin-left: 20%;
+    padding: 0 10px;
+}
 
-    .header, .nav {
-        padding: 35px;  Reduce el padding 
-    }
+.header, .nav {
+    padding: 35px; 
+}
 
-    .h4 {
-        left: 50%;
-        transform: translateX(-50%);
+.h4 {
+    left: 50%;
+    transform: translateX(-50%);
     }
 }
 
 @media (max-width: 480px) {
     .header, .nav {
-        font-size: 18px;  Reducir el tamaño de fuente 
+    font-size: 18px; 
     }
-
-    .h6 {
-        font-size: 3em; Ajustar el tamaño 
-        right: 0; Centrar 
-        top: 0;  Ajustar posición 
-    }
-
-    .programa1 {
-        height: auto; Ajustar a contenido 
-        margin-top: 20px;
-        flex-direction: columns: 
-    }
-
-    p {
-        width: 100%;  Ancho completo en móviles
-        font-size: 20px;  Ajustar tamaño de fuente 
-    }
-
-    .logo {
-        font-size: 1.2em;  Ajustar el tamaño de la logo 
-    }
-
-    .menu-horizontal {
-        flex-direction: column; Cambiar a columna en pantallas pequeñas 
-        align-items: center; Centrar elementos 
-    }
-
-    .menu-horizontal > li {
-        margin: 5px 0;  Espacio entre elementos del menú 
-    }
+.h6 {
+    font-size: 3em;  
+    right: 0;
+    top: 0;  
 }
 
+.programa1 {
+    height: auto;  
+    margin-top: 20px;
+    flex-direction: columns;
+    }
+
+p {
+    width: 100%;  
+    font-size: 20px;  
+    }
+
+.logo {
+    font-size: 1.2em; 
+    }
+
+.menu-horizontal {
+    flex-direction: column;  
+    align-items: center; 
+    }
+
+.menu-horizontal > li {
+    margin: 5px 0;  ú 
+    }
+}
